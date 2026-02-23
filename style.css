@@ -12,8 +12,7 @@
 
 body {
     text-transform: capitalize;
-    font-family: sans-serif;
-    font-family:Space Grotesk ;
+    font-family: Space Grotesk !important;
 }
 
 /* navbar */
@@ -48,7 +47,7 @@ body {
 
 a {
     text-decoration: none !important;
-    color: black;
+    color: black !important;
 }
 
 .nav-linksbox {
@@ -61,4 +60,21 @@ a {
 
 li {
     list-style-type: none;
+}
+
+.navbar{
+    background-color: white !important;
+    position: static !important;
+}
+
+@media only screen and (min-width:900px) {
+    .navbar {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:899px) {
+    .mynavbar{
+        display: none ;
+    }
 }

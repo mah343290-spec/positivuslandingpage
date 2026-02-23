@@ -1,9 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Space+Grotesk:wght@300..700&family=UnifrakturMaguntia&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --primary:#B9FF66;
-    --secondary:#191A23;
+:root {
+    --primary: #B9FF66;
+    --secondary: #191A23;
+}
+
+body {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-family:Space Grotesk ;
+}
+
+/* navbar */
+
+.mynavbar {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 40px auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo>h1 {
+    font-weight: 500;
+}
+
+.logo>img {
+    height: 36px;
+    width: 36px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.nav-linksbox {
+    border: 1px solid var(--secondary);
+    text-transform: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
 }

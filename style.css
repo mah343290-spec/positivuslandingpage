@@ -45,7 +45,7 @@ body {
     align-items: center;
 }
 
-a {
+li>a {
     text-decoration: none !important;
     color: black !important;
 }
@@ -62,7 +62,7 @@ li {
     list-style-type: none;
 }
 
-.navbar{
+.navbar {
     background-color: white !important;
     position: static !important;
 }
@@ -70,11 +70,56 @@ li {
 @media only screen and (min-width:900px) {
     .navbar {
         display: none !important;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width:899px) {
-    .mynavbar{
-        display: none ;
+    .mynavbar {
+        display: none;
     }
+}
+
+/* herosection */
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.hero-content {
+    width: 40%;
+    text-transform: none;
+    position: relative;
+    height: 600px;
+    /* border: 2px solid black; */
+}
+
+.hero-image {
+    width: 40%;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 100px;
+    background-color: black;
+    padding: 15px 40px;
+    border-radius: 15px;
+}
+
+.hero-description {
+    position: absolute;
+    top: 50%;
+}
+
+.hero-title {
+    font-size: 3rem;
+    position: absolute;
+    top: 10%;
+}
+
+.hero-button>a {
+    color: white !important;
+    text-decoration: none !important;
 }

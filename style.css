@@ -276,3 +276,44 @@ li {
         width: 70%;
     }
 }
+
+/* Banner */
+
+.banner {
+    display: flex;
+    margin: 40px auto;
+    background-color: var(--tertiary);
+    width: 90%;
+    height: 250px;
+    border-radius: 35px;
+    padding: 50px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.banner_content{
+    width: 50%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.banner-button {
+    background-color: black;
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: none;
+}
+
+.banner-button>a{
+    color: white !important;
+}
+
+.banner_img {
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    right: 100px;
+    top: 22px;
+}

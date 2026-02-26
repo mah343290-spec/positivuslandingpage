@@ -321,3 +321,24 @@ a {
     right: 100px;
     top: 22px;
 }
+
+/* Case Studies*/
+
+.case_studies_header {
+    display: flex;
+    padding-left: 50px;
+}
+
+.case_studies_heading {
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    background-color: var(--primary);
+}
+
+.case_studies_para {
+    text-transform: none;
+    margin-left: 30px;
+    width: 540px;
+}
+

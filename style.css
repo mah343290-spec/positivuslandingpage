@@ -295,7 +295,7 @@ li {
     position: relative;
 }
 
-.banner_content{
+.banner_content {
     width: 800px;
 }
 
@@ -310,7 +310,7 @@ a {
     border: none;
 }
 
-.banner-button>a{
+.banner-button>a {
     color: white !important;
 }
 
@@ -342,3 +342,41 @@ a {
     width: 540px;
 }
 
+.case_studies_card {
+    background-color: var(--secondary);
+    width: 90%;
+    height: fit-content;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 35px;
+    display: flex;
+    color: white;
+}
+
+.case_studies_card_content {
+    border-right: 1px solid white;
+    position: relative;
+}
+
+.card_studies_special {
+    border: none;
+    padding-left: 30px;
+}
+
+.studies_icon {
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+
+.card_studies_specialy {
+    padding: 0px 30px;
+}
+
+.card_studies_specialy>.studies_icon {
+    left: 130px;
+}
+
+.card_studies_special>.studies_icon {
+    left: 130px;
+}

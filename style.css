@@ -172,6 +172,7 @@ li {
 .services_para {
     text-transform: none;
     margin-left: 30px;
+    width: 540px;
 }
 
 .services_cards {
@@ -182,6 +183,7 @@ li {
     border-radius: 35px;
     position: relative;
     padding: 30px;
+    display: flex;
 }
 
 .services_section_cardsparent {
@@ -238,19 +240,39 @@ li {
     background-color: var(--primary);
 }
 
-.card_title_special{
+.card_title_special {
     background-color: white;
     border: 1px solid white;
 }
 
-.card_3,.card_6 {
+.card_3,
+.card_6 {
     background-color: var(--secondary);
 }
 
-.icon_special{
+.icon_special {
     color: var(--tertiary);
 }
 
 .card_link_special {
     color: white;
+}
+
+@media only screen and (max-width:450px) {
+    .services_header {
+        display: block;
+    }
+
+    .services_para {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .card_img {
+        display: none;
+    }
+
+    .services_cards {
+        width: 70%;
+    }
 }

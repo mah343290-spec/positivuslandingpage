@@ -153,6 +153,10 @@ li {
         bottom: 0;
     }
 
+    .banner_img {
+        display: none;
+    }
+
 }
 
 /* Services */
@@ -284,7 +288,7 @@ li {
     margin: 40px auto;
     background-color: var(--tertiary);
     width: 90%;
-    height: 250px;
+    height: fit-content;
     border-radius: 35px;
     padding: 50px;
     justify-content: space-between;
@@ -292,7 +296,7 @@ li {
 }
 
 .banner_content{
-    width: 50%;
+    width: 800px;
 }
 
 a {

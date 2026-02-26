@@ -196,7 +196,7 @@ li {
     width: 250px;
 }
 
-.card_title{
+.card_title {
     display: inline-block;
     background-color: var(--primary);
     text-transform: none;
@@ -211,5 +211,46 @@ li {
     text-transform: none;
     font-weight: 450;
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
+    left: 55px;
+}
+
+.icon_card {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+
+.card_img {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
+
+.card_1,
+.card_4 {
+    background-color: var(--tertiary);
+}
+
+.card_2,
+.card_5 {
+    background-color: var(--primary);
+}
+
+.card_title_special{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.card_3,.card_6 {
+    background-color: var(--secondary);
+}
+
+.icon_special{
+    color: var(--tertiary);
+}
+
+.card_link_special {
+    color: white;
 }

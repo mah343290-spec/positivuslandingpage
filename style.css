@@ -279,6 +279,7 @@ li {
     .services_cards {
         width: 70%;
     }
+
 }
 
 /* Banner */
@@ -344,7 +345,7 @@ a {
 
 .case_studies_card {
     background-color: var(--secondary);
-    width: 90%;
+    width: 1000px;
     height: fit-content;
     padding: 40px;
     margin: 40px auto;
@@ -356,6 +357,7 @@ a {
 .case_studies_card_content {
     border-right: 1px solid white;
     position: relative;
+    width: 300px;
 }
 
 .card_studies_special {
@@ -379,4 +381,10 @@ a {
 
 .card_studies_special>.studies_icon {
     left: 130px;
+}
+
+@media  only screen and (max-width:1000px) {
+    .case_studies_card {
+        flex-wrap: wrap;
+    }
 }

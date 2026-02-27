@@ -68,13 +68,6 @@ li {
     margin-bottom: 40px;
 }
 
-@media only screen and (min-width:900px) {
-    .navbar {
-        display: none !important;
-        width: 100%;
-    }
-}
-
 /* herosection */
 
 .hero-section {
@@ -132,32 +125,37 @@ li {
 }
 
 @media only screen and (max-width:899px) {
-    .mynavbar {
-        display: none;
+    .navbar {
+        display: none !important;
+        width: 100% !important;
     }
-
-    .hero-image {
-        display: none;
-    }
-
-    .hero-content {
-        align-self: center;
-    }
-
-    .hero-description {
-        position: absolute;
-        top: 60%;
-    }
-
-    .hero-button {
-        bottom: 0;
-    }
-
-    .banner_img {
-        display: none;
-    }
-
 }
+
+.mynavbar {
+    display: none;
+}
+
+.hero-image {
+    display: none;
+}
+
+.hero-content {
+    align-self: center;
+}
+
+.hero-description {
+    position: absolute;
+    top: 60%;
+}
+
+.hero-button {
+    bottom: 0;
+}
+
+.banner_img {
+    display: none;
+}
+
 
 /* Services */
 
@@ -345,7 +343,7 @@ a {
 
 .case_studies_card {
     background-color: var(--secondary);
-    width: 1000px;
+    width: fit-content;
     height: fit-content;
     padding: 40px;
     margin: 40px auto;
@@ -358,33 +356,52 @@ a {
     border-right: 1px solid white;
     position: relative;
     width: 300px;
+    padding: 0px auto;
 }
+
 
 .card_studies_special {
     border: none;
     padding-left: 30px;
 }
 
-.studies_icon {
-    position: absolute;
-    bottom: 20px;
-    left: 100px;
-}
-
 .card_studies_specialy {
     padding: 0px 30px;
 }
 
-.card_studies_specialy>.studies_icon {
-    left: 130px;
-}
-
-.card_studies_special>.studies_icon {
-    left: 130px;
-}
-
-@media  only screen and (max-width:1000px) {
+@media only screen and (max-width:950px) {
     .case_studies_card {
-        flex-wrap: wrap;
+        display: block;
+        padding: 20px;
     }
+
+    .case_studies_card_content {
+        border-right: none;
+        border-left: 1px solid white;
+        padding-left: 20px;
+    }
+}
+
+/*Our Working Process */
+
+.working_process_header {
+    display: flex;
+    padding-left: 50px;
+}
+
+.working_process_heading {
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    /* background-color: var(--primary); */
+}
+
+.working_process_para {
+    text-transform: none;
+    margin-left: 30px;
+    width: 540px;
+}
+
+.working_process_heading>h1 {
+    background-color: var(--primary);
 }

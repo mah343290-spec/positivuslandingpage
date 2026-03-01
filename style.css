@@ -582,4 +582,52 @@ a {
     .message_box_2 {
         display: none;
     }
+
+    .contact_img {
+        display: none;
+    }
+}
+
+/* Contact Us */
+
+.contact_card {
+    width: 90%;
+    height: 600px;
+    background-color: var(--tertiary);
+    border-radius: 40px;
+    padding: 30px;
+    padding-right: 0px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.contact_form {
+    width: 50%;
+    text-transform: none;
+}
+
+.contact_img {
+    width: fit-content;
+}
+
+.type_text {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.type_comment {
+    height: 150px;
+}
+
+.contact_btn {
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    width: 100%;
 }

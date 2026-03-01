@@ -544,6 +544,8 @@ a {
     overflow: hidden;
     padding: 40px;
     color: var(--tertiary);
+    position: relative;
+    border-radius: 40px;
 }
 
 .message_box {
@@ -576,6 +578,8 @@ a {
     bottom: 50px;
 }
 
-.testimonials_section {
-    position: relative;
+@media only screen and (max-width:1050px) {
+    .message_box_2 {
+        display: none;
+    }
 }

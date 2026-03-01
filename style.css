@@ -578,6 +578,12 @@ a {
     bottom: 50px;
 }
 
+.comment_2 {
+    position: absolute;
+    top: 0;
+    margin: 20px;
+}
+
 @media only screen and (max-width:1050px) {
     .message_box_2 {
         display: none;
@@ -588,6 +594,21 @@ a {
     }
 }
 
+@media only screen and (min-width:600px) {
+    .comment_2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:599px) {
+    .comment {
+        display: none;
+    }
+    .commenter_designation {
+        bottom: -100px;
+    }
+}
+
 /* Contact Us */
 
 .contact_card {
@@ -595,7 +616,7 @@ a {
     height: 600px;
     background-color: var(--tertiary);
     border-radius: 40px;
-    padding: 30px;
+    padding: 60px;
     padding-right: 0px;
     margin: 40px auto;
     display: flex;
@@ -613,7 +634,7 @@ a {
 }
 
 .type_text {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     border: 1px solid black;
     padding: 10px;
@@ -629,5 +650,15 @@ a {
     border-radius: 15px;
     color: white;
     border: none;
-    width: 100%;
+    width: 80%;
+}
+
+@media only screen and (max-width:600px) {
+    .contact_card {
+        padding: 10px;
+    }
+
+    .type_text,.contact_btn {
+        width: 100%;
+    }
 }

@@ -604,6 +604,7 @@ a {
     .comment {
         display: none;
     }
+
     .commenter_designation {
         bottom: -100px;
     }
@@ -658,7 +659,8 @@ a {
         padding: 10px;
     }
 
-    .type_text,.contact_btn {
+    .type_text,
+    .contact_btn {
         width: 100%;
     }
 }

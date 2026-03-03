@@ -721,7 +721,7 @@ a {
 }
 
 address {
-    height: 180px;
+    height: fit-content;
     width: 40%;
 }
 
@@ -744,3 +744,18 @@ address {
     background-color: #292A32;
 }
 
+@media only screen and (max-width:955px) {
+    .foot_form {
+        display: none;
+    }
+
+    address {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:865px) {
+    .footer_links {
+        display: none;
+    }
+}

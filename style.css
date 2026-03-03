@@ -664,3 +664,83 @@ a {
         width: 100%;
     }
 }
+
+/* footer */
+
+.footer {
+    background-color: var(--secondary);
+    width: 90%;
+    height: fit-content;
+    margin: 40px auto;
+    margin-bottom: 0px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 30px;
+    color: white;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: flex-start;
+}
+
+#foot_links {
+    color: white;
+    text-decoration: underline !important;
+}
+
+.footer_content {
+    margin-top: 25px;
+    display: flex;
+}
+
+.foot_heading {
+    color: black;
+    display: inline-block;
+    background-color: var(--primary);
+    border-radius: 5px;
+    text-transform: none;
+}
+
+.subscribe_btn {
+    background-color: var(--primary);
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+    color: black !important;
+}
+
+address {
+    height: 180px;
+    width: 40%;
+}
+
+.foot_form {
+    height: 180px;
+    width: 60%;
+    background-color: #292A32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#subscribe {
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 12px;
+    background-color: #292A32;
+}
+
